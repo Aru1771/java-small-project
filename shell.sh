@@ -118,4 +118,47 @@ big_file=()
 #	
 #	fi
 #done
+#############################################################################################################
+
+#services=("nginx" "docker" "jenkins")
+
+#for i in "${services[@]}"
+#do
+#	systemctl is-active --quiet "$i"
+#
+#	if [ $? -eq 0 ]; then
+#		echo "$i is running"
+#	else
+#		echo "$i need restart"
+#	fi
+#done
+############################################################################################################
+# the below code check the every log file in /var/log folder and prints if that logfile have error messages
+#for i in /var/log/*.log
+#do
+#	if grep "error" "$i"; then
+#		echo "print $i"
+#       fi
+#done
+###################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
